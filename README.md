@@ -49,35 +49,36 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 ---
 
-## Installation / *Kurulum*
 
-1. **Clone the Repository / *Depoyu Klonlayın***:  
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
-   ```
+1.  https://github.com/ardaztrk1905/Ag-Guvenligi-Analizi
 
-2. **Set Up Virtual Environment / *Sanal Ortam Kurulumu*** (Recommended):  
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+2. /home/kali/ag-guvenligi-projesi/venv/bin/python
 
-3. **Install Dependencies / *Bağımlılıkları Yükleyin***:  
-   ```bash
-   pip install -r requirements.txt
-   ```
+
+3. home/kali/ag-guvenligi-projesi/venv/bin/python
+Package         Version
+--------------- -----------
+appdirs         1.4.4
+lxml            5.4.0
+numpy           2.2.6
+packaging       25.0
+pandas          2.3.0
+pip             25.1.1
+pyshark         0.6
+python-dateutil 2.9.0.post0
+pytz            2025.2
+scapy           2.6.1
+six             1.17.0
+termcolor       3.1.0
+tzdata          2025.2
+
 
 ---
 
 ## Usage / *Kullanım*
 
-Run the project:  
-*Projeyi çalıştırın:*
+python aggüvenliği.py --input ornek.pcap --output sonuc.txt
 
-```bash
-python main.py --input your_file.pcap --output results.txt
-```
 
 **Steps**:  
 1. Prepare input data (*explain data needed*).  
@@ -85,9 +86,13 @@ python main.py --input your_file.pcap --output results.txt
 3. Check output (*explain where to find results*).  
 
 *Adımlar*:  
-1. Giriş verilerini hazırlayın (*ne tür verilere ihtiyaç duyulduğunu açıklayın*).  
-2. Betiği argümanlarla çalıştırın (*önemli argümanları açıklayın*).  
-3. Çıktıyı kontrol edin (*sonuçları nerede bulacağınızı açıklayın*).
+1.Bu dosyalar TCP, UDP, ICMP gibi ağ paketlerini içerir
+Gerçek ya da test ortamında kaydedilmiş saldırı içeren veya normal trafik verileri olabilir
+ sudo tcpdump -i eth0 -w verı.pcap
+
+3. input  veri.pcap	Analiz edilecek ağ verisi (giriş dosyası)
+   output sonuc.txt	Tespit edilen tehditlerin ya da analiz özetinin yazılacağı çıktı dosyası
+  Çıktıyı kontrol edin 
 
 ---
 
