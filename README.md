@@ -1,41 +1,33 @@
 <div align="center">
-  <img src="https://img.shields.io/github/languages/count/keyvanarasteh/Project?style=flat-square&color=blueviolet" alt="Language Count">
-  <img src="https://img.shields.io/github/languages/top/keyvanarasteh/Project?style=flat-square&color=1e90ff" alt="Top Language">
-  <img src="https://img.shields.io/github/last-commit/keyvanarasteh/Project?style=flat-square&color=ff69b4" alt="Last Commit">
-  <img src="https://img.shields.io/github/license/keyvanarasteh/Project?style=flat-square&color=yellow" alt="License">
+  <img src="https://img.shields.io/github/languages/count/ardaztrk1905/Ag-Guvenligi-Analizi?style=flat-square&color=blueviolet" alt="Language Count">
+  <img src="https://img.shields.io/github/languages/top/ardaztrk1905/Ag-Guvenligi-Analizi?style=flat-square&color=1e90ff" alt="Top Language">
+  <img src="https://img.shields.io/github/last-commit/ardaztrk1905/Ag-Guvenligi-Analizi?style=flat-square&color=ff69b4" alt="Last Commit">
+  <img src="https://img.shields.io/github/license/ardaztrk1905/Ag-Guvenligi-Analizi?style=flat-square&color=yellow" alt="License">
   <img src="https://img.shields.io/badge/Status-Active-green?style=flat-square" alt="Status">
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions">
 </div>
 
-# Project Name
-*Proje Adı*
+Network security analysis
+Ağ Güvenliği Analizi
 
-A brief, engaging description of your project.  
-*Projenizin kısa ve ilgi çekici bir açıklaması.*
+Analyze the operation of network security detectors (IDS/IPS) used to detect malicious activities (attacks, malware, unauthorized access, etc.) by monitoring traffic within the network. Reveal the weaknesses and strengths of these systems and offer suggestions to create a secure network environment.
+
+Ağın içinde gerçekleşen trafiği izleyerek, kötü niyetli aktiviteleri (saldırılar, kötü amaçlı yazılımlar, yetkisiz erişimler vs.) tespit etmek amacıyla kullanılan ağ güvenliği dedektörlerinin (IDS/IPS) işleyişini analiz etmek. Bu sistemlerin zayıf ve güçlü yönlerini ortaya koymak ve güvenli bir ağ ortamı oluşturmak için öneriler sunmak.
 
 ---
 
 ## Features / *Özellikler*
 
-- **Feature 1:** Description of the feature.  
-  *Özellik 1: Özelliğin açıklaması.*
-- **Feature 2:** Another cool thing it does.  
-  *Özellik 2: Yaptığı başka bir harika şey.*
-- **Feature 3:** One more for good measure.  
-  *Özellik 3: Ve bir tane daha.*
-- Add more as they develop.  
-  *Geliştikçe daha fazla ekleyin.*
+- "Port Scanning": Detects common attack types such as port scanning (Nmap), brute force, DoS.
+  ""Port Tarama": Port tarama (Nmap), brute force, DoS gibi yaygın saldırı türlerini tespit eder.
+  **Traffic Analysis:** Can distinguish between normal and abnormal traffic behavior.
+- **Trafik Analizi:** Normal ve anormal trafik davranışlarını ayırt edebilir.  
 
----
+--
 
 ## Team / *Ekip*
 
-- **219*****031** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- **Another Member** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- Add more members as needed.  
-  *Gerektiğinde daha fazla üye ekleyin.*
+- 2320191086 - Arda Öztürk: *Tüm projeyi geliştiren*  
 
 ---
 
@@ -50,9 +42,10 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 | Topic / *Başlık*        | Link                                    | Description / *Açıklama*                        |
 |-------------------------|-----------------------------------------|------------------------------------------------|
-| Aircrack Deep Dive      | [researchs/aircrack.md](researchs/aircrack.md) | In-depth analysis of Aircrack-ng suite. / *Aircrack-ng paketinin derinlemesine analizi.* |
-| Example Research Topic  | [researchs/your-research-file.md](researchs/your-research-file.md) | Brief overview of this research. / *Bu araştırmanın kısa bir özeti.* |
-| Add More Research       | *Link to your other research files*     | *Description of the research*                  |
+| Makale   |  https://arxiv.org/abs/2004.08967 | IDS ve IPS sistemlerinin genel bir değerlendirmesini sunar, avantajları ve sınırlamaları üzerine odaklanır.
+🔗 arXiv:2004.08967 |
+| Zeek | https://en.wikipedia.org/wiki/Zeek | Zeek, ağ trafiğini derinlemesine analiz eden ve olayları mantıksal olarak raporlayan güçlü bir araçtır. |
+| Snort , Suricata , Zeek ..     |           |
 
 ---
 
